@@ -2,5 +2,5 @@
 
 ### Projet 
 
-[Marelle Pieds Mains](http://marelle_pieds-mains.html)
+[Marelle Pieds Mains](./marelle_pieds-mains.html)
 
