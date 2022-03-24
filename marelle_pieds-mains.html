@@ -14,10 +14,11 @@
         <a-assets>
             <a-asset-item id="leftfoot" src="./assets/piedgauche.glb"></a-asset-item>
             <a-asset-item id="rightfoot" src="./assets/pieddroite.glb"></a-asset-item>
-            <img id="sky" src="TEST.jpg">
-            <img id="bois" src="./texture.jpg">
-            <img id="checkpoint"src="rond.jpg">
-        </a-assets>
+            <img id="sky" src="aa.png">
+            <img id="bois" src="./f.png">
+            <img id="planche" src="o.png">
+            <img id="checkpoint"src="bois.png">
+        </a-assets> 
 
         <!-- INSEREZ VOTRE ENVIRONNEMENT, CI-DESSOUS ... -->
       
@@ -25,38 +26,49 @@
 
        
         <a-box
-        width="7" height="30" depth="7"
-        position="0 -20 1"
+        width="1" height="1" depth="1"
+        position="0 -0.5 0" rotation="0 22 0"
         src="#checkpoint"> 
         </a-box>
 
+        <a-cylinder
+        width="1" height="10" depth="1" radius="0.5"
+        position="-5 -5 2"
+        src="#bois">
+      </a-cylinder>
+
+      <a-box 
+      width="4.5" height="0" depth="0.2"
+      position=" -2.5 0 1" rotation="0 22 0" src="#planche"></a-box>
+
+
       <a-cylinder
-        width="4" height="30" depth="3"
-        position="-5 -20 2"
+        width="1" height="10" depth="1" radius="0.5"
+        position="-6 -5 4"
         src="#bois">
       </a-cylinder>
 
       <a-cylinder
-        width="4" height="30" depth="3"
-        position="-10 -20 4"
+        width="1" height="10" depth="1" radius="0.5"
+        position="-7 -5 6"
         src="#bois">
       </a-cylinder>
 
       <a-cylinder
-        width="4" height="30" depth="3"
-        position="-15 -20 6"
+        width="1" height="10" depth="1" radius="0.5"
+        position="-9 -5 7" 
         src="#bois">
       </a-cylinder>
 
-      <a-cylinder
-        width="4" height="30" depth="3"
-        position="-20 -20 7" 
-        src="#bois">
-      </a-cylinder>
+
+      <a-box 
+      width="1" height="0" depth="0.2"
+      position=" -10 0 7" rotation="0 9 0" src="#planche"></a-box>
+
 
       <a-box
-        width="7" height="30" depth="7"
-        position="-25 -20 5" 
+        width="1" height="1" depth="1"
+        position="-11 -0.5 7" 
         src="#checkpoint ">
       </a-box>
 
